@@ -1,0 +1,42 @@
+# ManePearsScythe Configuration
+#
+# Prefix for all scythe messages (supports & color codes)
+prefix: "&5[Scythe]"
+
+# Display name of the Scythe item (supports & color codes)
+scythe-name: "&5Scythe"
+
+# If true, the Scythe can only be crafted once. Persists across restarts.
+one-time-craftable-only: true
+
+# Internal tracking - do not edit manually (set automatically by the plugin)
+scythe-crafted: false
+
+# Resource Pack
+#
+# URL to the resource pack zip file
+# SHA1 hash of the resource pack (used for caching)
+resource-pack:
+  url: ""
+  sha1: ""
+
+# Crafting Recipe
+#
+# Shape uses a 3x3 grid (row1 = top, row3 = bottom).
+# Each character maps to an ingredient below.
+# Use a space for empty slots.
+#
+# Default recipe layout:
+#   [   ] [   ] [ N ]
+#   [   ] [ H ] [ N ]
+#   [ B ] [   ] [ N ]
+#
+# N = Netherite Ingot, H = Heavy Core, B = Breeze Rod
+recipe:
+  row1: "  N"
+  row2: " HN"
+  row3: "B N"
+  ingredients:
+    N: NETHERITE_INGOT
+    H: HEAVY_CORE
+    B: BREEZE_ROD

@@ -1,0 +1,9 @@
+name: ManePearsScythe
+version: "1.0"
+main: oneaura.ManePearsScythe.ManePearsScythe
+api-version: "1.21"
+commands:
+  scythe:
+    description: Gives the Scythe item
+    permission: op
+    usage: /scythe
