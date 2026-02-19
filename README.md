@@ -6,6 +6,8 @@
 
 **Adds the Scythe from ManePear's videos.**
 
+**Huge thanks to [Oasis](https://modrinth.com/user/OasisSucksAtMC) for letting me use his Scythe texture!**
+
 ## Features
 
 | Feature | Description |
@@ -22,16 +24,27 @@
 </div>
 
 ```yml
-# Default Config
+# ManePearsScythe Configuration
 #
 # Prefix for all scythe messages (supports & color codes)
-prefix: "&b[Scythe]"
+prefix: "&5[Scythe]"
+
+# Display name of the Scythe item (supports & color codes)
+scythe-name: "&5Scythe"
 
 # If true, the Scythe can only be crafted once. Persists across restarts.
 one-time-craftable-only: true
 
 # Internal tracking - do not edit manually (set automatically by the plugin)
 scythe-crafted: false
+
+# Resource Pack
+#
+# URL to the resource pack zip file
+# SHA1 hash of the resource pack (used for caching)
+resource-pack:
+  url: ""
+  sha1: ""
 
 # Crafting Recipe
 #
@@ -54,7 +67,6 @@ recipe:
     H: HEAVY_CORE
     B: BREEZE_ROD
 ```
-
 <div align="center">
 
 ---
@@ -63,7 +75,7 @@ recipe:
 
 This plugin is licensed under the **MIT License**.
 
-[Tutorial on how to add a texture to the Scythe!](https://github.com/oneauraaa/ManePearsScythe/blob/master/PACK.md) (I cannot include this within the plugin because of copyright issues.)
+**The Scythe texture is by [Oasis](https://modrinth.com/user/OasisSucksAtMC) for letting me use his pack!**
 </div>
 
 

@@ -31,11 +31,11 @@ import java.util.Map;
 
 public class ManePearsScythe extends JavaPlugin implements Listener, CommandExecutor {
 
+    private static final String RESOURCE_PACK_URL = "https://github.com/oneauraaa/ManePearsScythe/raw/refs/heads/master/scythe_texture.zip";
+    private static final String RESOURCE_PACK_SHA1 = "da39a3ee5e6b4b0d3255bfef95601890afd80709";
     private NamespacedKey recipeKey;
     private boolean scytheCrafted = false;
     private String scytheName;
-    private String resourcePackUrl;
-    private String resourcePackSha1;
 
     @Override
     public void onEnable() {
@@ -46,8 +46,6 @@ public class ManePearsScythe extends JavaPlugin implements Listener, CommandExec
 
         // Load configurable values
         scytheName = ChatColor.translateAlternateColorCodes('&', getConfig().getString("scythe-name", "&5Scythe"));
-        resourcePackUrl = getConfig().getString("resource-pack.url", "");
-        resourcePackSha1 = getConfig().getString("resource-pack.sha1", "");
 
         // Load persisted crafted status
         scytheCrafted = getConfig().getBoolean("scythe-crafted", false);
@@ -106,9 +104,7 @@ public class ManePearsScythe extends JavaPlugin implements Listener, CommandExec
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event) {
-        if (!resourcePackUrl.isEmpty() && !resourcePackSha1.isEmpty()) {
-            event.getPlayer().setResourcePack(resourcePackUrl, hexToBytes(resourcePackSha1));
-        }
+        event.getPlayer().setResourcePack(RESOURCE_PACK_URL, hexToBytes(RESOURCE_PACK_SHA1));
     }
 
     @Override

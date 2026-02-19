@@ -12,14 +12,6 @@ one-time-craftable-only: true
 # Internal tracking - do not edit manually (set automatically by the plugin)
 scythe-crafted: false
 
-# Resource Pack
-#
-# URL to the resource pack zip file
-# SHA1 hash of the resource pack (used for caching)
-resource-pack:
-  url: ""
-  sha1: ""
-
 # Crafting Recipe
 #
 # Shape uses a 3x3 grid (row1 = top, row3 = bottom).
