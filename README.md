@@ -4,9 +4,9 @@
 
 # ManePear's Scythe
 
-**Adds the Scythe from ManePear's videos.**
+Adds the Scythe from ManePear's videos.
 
-**Huge thanks to [Oasis](https://modrinth.com/user/OasisSucksAtMC) for letting me use his Scythe texture!**
+Huge thanks to **[Oasis](https://modrinth.com/user/OasisSucksAtMC)** for letting me use his texture for the Scythe!
 
 ## Features
 
@@ -65,9 +65,9 @@ recipe:
 
 ## Disclaimer
 
-This plugin is licensed under the **MIT License**.
+This plugin is licensed under the **[MIT License](https://github.com/oneauraaa/ManePearsScythe/blob/master/LICENSE)**.
 
-**The Scythe texture is by [Oasis](https://modrinth.com/user/OasisSucksAtMC) for letting me use his pack!**
+The Scythe texture is by **[Oasis](https://modrinth.com/user/OasisSucksAtMC)**
 </div>
 
 
