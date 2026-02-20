@@ -31,8 +31,8 @@ import java.util.Map;
 
 public class ManePearsScythe extends JavaPlugin implements Listener, CommandExecutor {
 
-    private static final String RESOURCE_PACK_URL = "https://github.com/oneauraaa/ManePearsScythe/raw/refs/heads/master/scythe_texture.zip";
-    private static final String RESOURCE_PACK_SHA1 = "da39a3ee5e6b4b0d3255bfef95601890afd80709";
+    private static final String RESOURCE_PACK_URL = "https://download.mc-packs.net/pack/65cfcb5ada313e15e481e4bc9efc2123bd5a24ad.zip";
+    private static final String RESOURCE_PACK_SHA1 = "65cfcb5ada313e15e481e4bc9efc2123bd5a24ad";
     private NamespacedKey recipeKey;
     private boolean scytheCrafted = false;
     private String scytheName;
@@ -89,7 +89,8 @@ public class ManePearsScythe extends JavaPlugin implements Listener, CommandExec
                 y + "-----" + g + "::::::::::::::::::::::::::::::" + y + "-----",
                 y + "-----" + g + "::::::::::::::::::::::::::::::" + y + "-----",
                 "",
-                g + "  ManePearsScythe " + r + "- Made by oneaura - guns.lol/oneaura"
+                g + "  ManePearsScythe " + r + "- Made by oneaura - guns.lol/oneaura",
+                r + "- Scythe texture by Oasis - modrinth.com/user/OasisSucksAtMC"
         };
 
         for (String line : banner) {
